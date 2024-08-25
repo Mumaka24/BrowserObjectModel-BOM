@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ALAB BOM</title>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
         <title>Guessing Game</title>
-        <link rel="stylesheet" href="src/styles.css" />
-  </head>
-  <body>
-    <header>
-        <h1>Number Guessing Game</h1>
-    </header>
-        <main>
-            <p> Guess a number between 1 and 30:</p>
-            <input type ="number"
-            id="app" min="1" max="100">
-            <button 
-            id="guessButton">Guess</button>
-            <p id="result"></p>
-            <p id="progress"></p>
-        </main>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+        <body> 
+            <headr>
+            <h1>Number Guessing Game</h1>
+            </header>
+            <main>  
+                <p>"message>" Guess a number between 1 and 100:</p>
+                <input type="number"
+         id="userGuess" min="1" max="100">
+                <button 
+        id="startButton">Start Game</button>
+        <p id="result"></p>
+        <p id="progress"></p>
+    </main>
 
-       <script src="src/index.js" type= "module"></script>
+       <script src="index.js" type= "module"></script>
   </body>
 </html>
+      
